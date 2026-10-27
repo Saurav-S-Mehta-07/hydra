@@ -6,7 +6,7 @@ export const DEFAULT_PREFERENCES = {
 
 export function readThemePreference() {
   try {
-    return localStorage.getItem("a11ypilot-theme") ?? "light";
+    return localStorage.getItem("a11ypilot-theme") ?? "dark";
   } catch {
     return "light";
   }
